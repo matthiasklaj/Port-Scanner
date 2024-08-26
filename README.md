@@ -12,7 +12,7 @@ This project provides an asynchronous network port scanner written in Python, de
 
 Ensure you have Python 3.7 or higher installed. No additional packages are required beyond the standard library.
 
-```bash
+bash
 pip install asyncio
 Usage
 
