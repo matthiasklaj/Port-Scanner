@@ -12,22 +12,9 @@ This project provides an asynchronous network port scanner written in Python, de
 
 Ensure you have Python 3.7 or higher installed. No additional packages are required beyond the standard library.
 
-bash
-pip install asyncio
-Usage
+## Usage
 
 You can run the port scanner from the command line. Here’s the syntax:
 
-Example
-To scan TCP ports 80 and 443 on the host example.com, use:
-
-bash
-Copy code
-python port_scanner.py example.com 80 443 --protocol tcp
-
-To scan UDP ports 53 and 67 on the host example.com, use:
-
-bash
-Copy code
-
-python port_scanner.py example.com 53 67 --protocol udp
+```bash
+python port_scanner.py <host> <port1> <port2> ... [--protocol <tcp|udp>]
